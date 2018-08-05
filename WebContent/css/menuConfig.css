@@ -1,0 +1,125 @@
+
+		body {
+			font: 300 15px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+			background: #EEF4F4;
+			margin: 15px;
+		}
+	
+		article{
+			width: 1200px;
+			height: 500px;
+			margin: 0 auto;
+			background: #1D9292;
+			color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 15px 2px #666;
+		}
+	
+		section {
+			clear: left;
+		}
+		
+		h1 {
+			font-size: 20px;
+			font-weight: 50;
+			letter-spacing: 10px;
+			text-align: center;
+		}
+	
+		a {
+			color: #000;
+			float: left; 
+			text-align: left;	
+			font-size: 10px;	
+			list-style: none;
+			display: block;
+			text-decoration: none;
+			padding: 5px 15px;
+		}
+		
+		p {
+			color: #000;
+			float: left; 
+			text-align: left;
+			position: relative;	
+			font-size: 11px;	
+			list-style: none;	
+			display: block;
+		}
+	
+		#main_menu ul {
+			background: white;
+			text-align: left;
+			float: left;
+			-webkit-transition: .5s;
+			transition: .5s;
+			position: relative;
+		}
+	
+		#main_menu li {
+			float: left;
+			position: relative;
+			width: 190px;
+			list-style: square;
+			-webkit-transition: .50s;
+			transition: .50s;
+			
+		}
+		
+		#main_menu ul ul {
+			position: absolute;
+			left: 0;
+			top: 100%;
+			visibility: hidden;
+			opacity: 0;
+		}
+	
+		#main_menu ul ul ul {
+			left: 100%;
+			top: 0;
+		}
+		
+		#main_menu a {
+			display: block;
+			text-decoration: none;
+			padding: 5px 15px;
+			color: #000;
+		}
+		
+	
+		#main_menu > ul > li > a, h1, p {
+			text-transform: uppercase;
+		}
+		
+		#main_menu p {
+			display: block;
+			text-decoration: none;
+			padding: 2px 10px;
+			color: #000;
+		}
+
+		#main_menu ul ul{
+			position: absolute;
+			left: 0;
+			top: 100%;
+			visibility: hidden;
+			opacity: 0;
+		}
+
+		#main_menu li:hover {
+			background: #FEFE0C;
+		}
+	
+		
+		#main_menu li li li:hover {
+			background: #FEFE0C;
+		}
+	
+		#main_menu li:hover > ul {
+			visibility: visible;
+			opacity: 1;
+		}
+		{
+			margin: 0;
+			padding: 0;
+		}

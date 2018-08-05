@@ -1,0 +1,8 @@
+.subPage {
+	font: 30 10px/1.5 "Helvetica Neue", helvetica, arial, sans-serif;
+	font-weight: 10;
+	text-align: center;
+	padding: 5px 5px;
+	}
+.mydiv { display: inline; }
+.hidden{ display: none; }
